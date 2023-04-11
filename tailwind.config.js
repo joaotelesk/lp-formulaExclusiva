@@ -9,37 +9,46 @@ module.exports = {
   ],
   theme: {
     extend: {
-      extend: {
-        container: {
-          center: true,
-          padding: {
-            DEFAULT: "1rem",
-            sm: "2rem",
-          },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
         },
+      },
 
-        backgroundImage: {},
+      backgroundImage: {},
+    },
+    fontFamily: {
+      sans: ["var(--font-montSerrat)", ...fontFamily.sans],
+    },
+    screens: {
+      sm: "600px",
+      md: "728px",
+      lg: "998px",
+      xl: "1140px",
+    },
+    colors: {
+      yellow: "#C9D42D",
+      white: {
+        500: "#FFFFFF",
+        400: "#F5F5F5",
+        300: "#C4C4C4",
+        200: "#E9E9E9",
       },
-      fontFamily: {
-        sans: ["var(--font-montserrat)", ...fontFamily.sans],
+      green: {
+        500: "#0D281A",
+        400: "#153323",
+        300: "#17301D",
       },
-      colors: {
-        yellow: "#C9D42D",
-        white: {
-          500: "#FFFFFF",
-          400: "#F5F5F5",
-        },
-        green: {
-          500: "#0D281A",
-          400: "#153323",
-          300: "#17301D",
-        },
-        black: {
-          500: "#1E1E1E",
-          400: "#212021",
-          300: "#3A3737",
-        },
+      black: {
+        600: "#000000",
+        500: "#1E1E1E",
+        400: "#212021",
+        300: "#3A3737",
       },
+      red: "#F32626",
+      gray: "#6A6568",
     },
   },
   plugins: [],
