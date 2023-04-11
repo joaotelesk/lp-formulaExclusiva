@@ -1,3 +1,9 @@
 export default function Home() {
-  return <h1>Conteúdo</h1>;
+  return (
+    <>
+      <main className="w-full min-h-screen py-0">
+        <p>contaúdo</p>
+      </main>
+    </>
+  );
 }
