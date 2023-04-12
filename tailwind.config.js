@@ -17,7 +17,12 @@ module.exports = {
         },
       },
 
-      backgroundImage: {},
+      backgroundImage: {
+        DeskBanner1: "url(/banner1-desk.png)",
+        MobBanner1: "url(/banner1-mob.png)",
+        DeskBanner2: "url(/banner2-desk.png)",
+        MobBanner2: "url(/banner2-mob.png)",
+      },
     },
     fontFamily: {
       sans: ["var(--font-montSerrat)", ...fontFamily.sans],
@@ -46,6 +51,7 @@ module.exports = {
         500: "#1E1E1E",
         400: "#212021",
         300: "#3A3737",
+        200: "#303030",
       },
       red: "#F32626",
       gray: "#6A6568",
