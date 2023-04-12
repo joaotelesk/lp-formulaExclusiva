@@ -10,7 +10,7 @@ export default function Home() {
             <span className="font-bold text-lg text-green-300">
               Emagreça muito mais rápido!
             </span>
-            <h2 className="text-3xl lg:text-5xl font-black max-w-sm lg:max-w-md mt-2 text-white-500">
+            <h2 className="text-3xl lg:text-5xl font-black mx-auto lg:mx-0 max-w-sm lg:max-w-md mt-2 text-white-500">
               SEM DIETAS MALUCAS OU{" "}
               <span className="text-green-300">EXERCÍCIOS FÍSICOS</span>
             </h2>
