@@ -1,6 +1,12 @@
+// Components
 import Image from "next/image";
 import Link from "next/link";
+
+// Utilities
 import { FiInstagram } from "react-icons/fi";
+
+// Interfaces
+// Hooks
 
 export function Footer() {
   return (

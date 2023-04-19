@@ -1,5 +1,8 @@
+// Components
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+
+// Utilities
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({
@@ -11,6 +14,9 @@ const montserrat = Montserrat({
 interface LayoutProps {
   children: React.ReactNode;
 }
+
+// Hooks
+
 export function Layout({ children }: LayoutProps) {
   return (
     <>
