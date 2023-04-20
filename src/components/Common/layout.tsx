@@ -1,6 +1,6 @@
 // Components
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
+import { Footer } from "./Footer";
+import { Header } from "./Header";
 
 // Utilities
 import { Montserrat } from "next/font/google";

@@ -1,6 +1,5 @@
 // Components
-import { CardCommune } from "@/components/CardCommune";
-import Image from "next/image";
+import { CardCommune } from "../Common/CardCommune";
 
 // Utilities
 // Interfaces

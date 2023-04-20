@@ -1,5 +1,5 @@
 // Components
-import { CardSection2 } from "@/components/CardSection2";
+import { CardSection2 } from "../Common/CardSection2";
 
 // Utilities
 // Interfaces
