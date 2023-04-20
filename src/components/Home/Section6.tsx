@@ -37,9 +37,9 @@ export function Section6() {
             description="É um tipo de fibra que ajuda no controle do apetite, fazendo com que nosso corpo absorva menos gorduras e colesterol."
           />
           <CardCommune
-            image="/Section6/figure3.png"
+            image="/Section6/figure4.png"
             size={180}
-            alt="figure3-section6"
+            alt="figure4-section6"
             title="Cromo"
             description="Ajuda emagrecer, pois ajuda na redução da glicemia, ganho de massa muscular e perda de peso, principalmente na região abdominal."
           />
